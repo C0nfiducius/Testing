@@ -1,6 +1,13 @@
 body {
 
   font-family: Verdana;
+  background-image: url("http://img12.deviantart.net/f872/i/2014/098/7/a/sorensen_leather___senegal_dark_grey_30162_by_sorensenleather-d7dlv2y.png");
+  color: #FFF0F0;
 
+}
+
+.row {
+
+  margin-top: 200px;
 
 }
