@@ -1,13 +1,89 @@
-body {
+html, body {
+  font-family: "Lato";
+  overflow-x: hidden;
+  text-align: justify;
+}
 
-  font-family: Verdana;
-  background-image: url("http://img12.deviantart.net/f872/i/2014/098/7/a/sorensen_leather___senegal_dark_grey_30162_by_sorensenleather-d7dlv2y.png");
-  color: #FFF0F0;
+.content {
+  margin-top: 150px;
 
 }
 
-.row {
+.navbar-toggle {
+  background-color: #54b4ff;
+  border-color: transparent !important;
+}
 
-  margin-top: 200px;
+.icon-bar {
+  background-color: black !important;
+}
+
+.navbar-toggle:hover  {
+  background-color: #9bd3ff !important;
+}
+
+.navbar-toggle:focus {
+  background-color: #9bd3ff !important;
+}
+
+.navbar-collapse {
+
+  border-color:#9bd3ff !important;
+}
+
+
+.navbar {
+  background-color:#54b4ff;
+  margin: 0px;
+  border: 0px;
 
 }
+
+.navbar a {
+  color: black !important;
+  background-color: #54b4ff !important;
+}
+
+
+.navbar a:hover {
+  background-color:#9bd3ff !important;
+}
+
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  color: #54b4ff !important;
+}
+
+#one {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.scrollToTop {
+  transition: all .2s ease-in-out;
+  text-decoration: none !important;
+
+}
+
+#ende {
+  text-align: center;
+  transition: all .2s ease;
+
+}
+
+#ende:hover {
+  transform: scale(1.5);
+}
+
+#ende a {color: #54b4ff !important;}
