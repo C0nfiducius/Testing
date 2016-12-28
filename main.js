@@ -16,7 +16,7 @@ $(document).ready(function(){
 
   $('.scrollKontakt').click( function() {
        $('html, body').animate({
-            scrollTop: $('#scrollToKontakt').offset().top
+            scrollTop: $('#ende').offset().top
        }, 400);
   });
 

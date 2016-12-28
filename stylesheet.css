@@ -5,7 +5,8 @@ html, body {
 }
 
 .content {
-  margin-top: 150px;
+  margin-top: 75px;
+  margin-bottom: 75px;
 
 }
 
@@ -87,3 +88,14 @@ h1 {
 }
 
 #ende a {color: #54b4ff !important;}
+
+
+
+
+
+.a {
+
+  background-color: #f9f9f9;
+
+
+}
