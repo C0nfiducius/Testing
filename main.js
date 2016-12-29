@@ -39,4 +39,24 @@ $(document).ready(function(){
 
 
 
+var $notify = $(".notify");
+
+$notify.waypoint(function(direction) {
+  if (direction == "down"){
+    $notify.addClass("notify-animate");
+  } else {
+    $notify.removeClass("notify-animate");
+  }
+},{offset:"250px"});
+
+
+$(".banner").click(function() {
+  $(".banner-hide").slideToggle("slow", function() {
+      });
+});
+
+
+
+
+
 });

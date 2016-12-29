@@ -89,13 +89,29 @@ h1 {
 
 #ende a {color: #54b4ff !important;}
 
-
-
-
-
 .a {
-
   background-color: #f9f9f9;
+}
 
 
+.banner {
+
+  cursor: pointer; cursor: hand;
+  vertical-align: middle;
+}
+
+
+
+.notify-animate {
+  animation: notify-shake 0.5s linear;
+}
+
+
+
+@keyframes notify-shake {
+
+  0% {  transform: none; }
+  25% { transform: translate(20px);}
+  75% { transform: translate(-20px);}
+  100% { transform: none;}
 }
